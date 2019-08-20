@@ -16,5 +16,5 @@ describe('balanceReducer', () => {
 
     expect(balanceReducer(initialState, { type: constants.DEPOSIT, deposit }))
       .toEqual(initialState + deposit);
-  })
+  });
 })
