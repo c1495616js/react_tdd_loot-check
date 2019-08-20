@@ -65,3 +65,9 @@ In `package.json`
 ## Deploy to gh-page by Travis.ci
 
 https://medium.com/@bezgachev/6-simple-steps-to-automatically-test-and-deploy-your-javascript-app-to-github-pages-c4c32a34bcb1
+
+## Debug in Test
+
+```
+console.log(app.debug());
+```
