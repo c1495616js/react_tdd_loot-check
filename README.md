@@ -2,10 +2,11 @@
 
 ```
 npm i -D enzyme jest-cli enzyme-adapter-react-16
+npm i -D redux-mock-store fetch-mock
 ```
 
 ```
-npm i -S redux react-redux
+npm i -S redux react-redux redux-thunk
 ```
 
 ### index.js
