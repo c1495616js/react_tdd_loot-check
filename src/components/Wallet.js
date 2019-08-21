@@ -15,7 +15,7 @@ export class Wallet extends Component {
   render() {
     return (
       <div>
-        <h3 className="balance">Wallet balance: {this.state.balance}</h3>
+        <h3 className="balance">Wallet balance: {this.props.balance}</h3>
         <br />
         <input 
           className="input-wallet"
